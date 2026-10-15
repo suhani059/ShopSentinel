@@ -1,4 +1,4 @@
-# 🛍️ ShopSentinel
+# ShopSentinel
 
 ### A Safer AI Buyer Agent for Agentic Commerce
 
@@ -10,7 +10,7 @@ It understands a user's shopping request, searches product listings, applies sec
 
 ---
 
-## 🎯 Problem
+## Problem
 
 As AI agents become capable of shopping and making transactions on behalf of users, they introduce a new security challenge.
 
@@ -37,7 +37,7 @@ ShopSentinel addresses this problem with:
 
 ---
 
-## 💡 What ShopSentinel Does
+## What ShopSentinel Does
 
 ```text
 User Request
@@ -63,9 +63,9 @@ A **Demo Catalog** is also available as a fallback when live marketplace search 
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
-## 1. 🧠 AI Shopping Intent
+## 1.  AI Shopping Intent
 
 ShopSentinel converts natural-language shopping requests into structured requirements.
 
@@ -88,7 +88,7 @@ The project supports an Anthropic Claude-based intent layer with a rule-based fa
 
 ---
 
-## 2. 🔎 Live Product Search
+## 2.  Live Product Search
 
 ShopSentinel can search live marketplace product data through the **QuickCommerce API**.
 
@@ -110,7 +110,7 @@ ShopSentinel does **not** claim direct official API integrations with every mark
 
 ---
 
-## 3. 🛡️ Prompt-Injection Defense
+## 3.  Prompt-Injection Defense
 
 External product information is treated as **untrusted input**.
 
@@ -147,7 +147,7 @@ Product information can describe a product, but it cannot control the buyer agen
 
 ---
 
-# 🚨 Security Demonstration
+#  Security Demonstration
 
 ShopSentinel contains a deliberately poisoned demo product:
 
@@ -182,7 +182,7 @@ This demonstrates that malicious product information cannot directly trigger a f
 
 ---
 
-# 💰 Budget Protection
+# Budget Protection
 
 The user controls the maximum price.
 
@@ -196,7 +196,7 @@ Products exceeding the user's budget are filtered out before recommendations are
 
 ---
 
-# 👤 Explicit User Confirmation
+#  Explicit User Confirmation
 
 ShopSentinel does not allow the AI agent to silently purchase a product.
 
@@ -218,7 +218,7 @@ This keeps the financial action **human-gated**.
 
 ---
 
-# 💳 Razorpay Test Mode
+# Razorpay Test Mode
 
 ShopSentinel integrates Razorpay in **Test Mode**.
 
@@ -235,7 +235,7 @@ Razorpay payment signatures are verified on the backend.
 
 ---
 
-# 📋 Audit Trail
+#  Audit Trail
 
 Important actions are recorded in:
 
@@ -264,7 +264,7 @@ This makes important agent decisions traceable.
 
 ---
 
-# 🏗️ Technical Architecture
+#  Technical Architecture
 
 ```text
                     ┌─────────────────┐
@@ -313,7 +313,7 @@ This makes important agent decisions traceable.
 
 ---
 
-# 🧮 Product Ranking
+# Product Ranking
 
 After security and budget filtering, products are ranked using factors including:
 
@@ -325,7 +325,7 @@ This helps the agent recommend stronger options instead of simply returning raw 
 
 ---
 
-# 🌐 Web Interface
+# Web Interface
 
 ShopSentinel provides a Flask-based web interface where the user can:
 
@@ -339,7 +339,7 @@ ShopSentinel provides a Flask-based web interface where the user can:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -358,7 +358,7 @@ ShopSentinel provides a Flask-based web interface where the user can:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 ShopSentinel/
@@ -394,7 +394,7 @@ ShopSentinel/
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## 1. Clone the repository
 
@@ -427,7 +427,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔐 Environment Variables
+#  Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -455,7 +455,7 @@ DEMO_MODE=false
 
 ---
 
-# ▶️ Running the Application
+# Running the Application
 
 Activate the virtual environment and run:
 
@@ -477,7 +477,7 @@ gunicorn app:app
 
 ---
 
-# 🧪 Example Requests
+#  Example Requests
 
 ```text
 running shoes under ₹5000
@@ -495,7 +495,7 @@ The system converts the request into structured intent, searches products, appli
 
 ---
 
-# 🔬 Testing Scenarios
+# Testing Scenarios
 
 ## Test 1 — Normal Shopping
 
@@ -557,7 +557,7 @@ Purchase does not proceed
 
 ---
 
-# 🔒 Security Design
+# Security Design
 
 ShopSentinel follows four important principles for agentic commerce:
 
@@ -589,7 +589,7 @@ AUDITABLE
 
 ---
 
-# 🌟 What Makes ShopSentinel Different?
+# What Makes ShopSentinel Different?
 
 ShopSentinel is not simply a product recommendation chatbot.
 
@@ -615,7 +615,7 @@ The central security idea is:
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 - QuickCommerce is a third-party product aggregation/search layer.
 - Live marketplace availability and pricing can change.
@@ -626,7 +626,7 @@ The central security idea is:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Potential extensions include:
 
@@ -643,7 +643,7 @@ Potential extensions include:
 
 ---
 
-# 🏆 Built For
+#  Built For
 
 ### Razorpay AI Buildathon 2026
 
@@ -660,7 +660,7 @@ Auditable
 
 ---
 
-# 💭 Core Idea
+# Core Idea
 
 > **Let AI shop intelligently — without letting untrusted product data control the money.**
 
